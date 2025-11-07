@@ -65,13 +65,18 @@ public class pratice7 {
             } else
                 System.out.println("wrong input");
         }
-        System.out.println("input blue balls");
-        int input2 = sc.nextInt();
+        System.out.println("input blue ball (1-16):");
+        while (true) {
+            int input2 = sc.nextInt();
+            if (input2 > 0 && input2 <= 16) {
+                inputArray[6] = input2;
+                break; // 输入有效，跳出循环
+            } else {
+                System.out.println("wrong type in (must be 1-16). Try again:");
+            }
+        }
+
         sc.close();
-        if (input2 > 0 && input2 <= 16) {
-            inputArray[6] = input2;
-        } else
-            System.out.println("wrong type in");
         return inputArray;
     }
 
@@ -80,19 +85,20 @@ public class pratice7 {
         int[] arrays = new int[100];// 存已经用过的红球
         Random r = new Random();
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 6;) {
             int redNumber = r.nextInt(33) + 1;
-            boolean flag = flags(arrays, redNumber);
+            boolean flag = isNumberUnique(arrays, redNumber);
             if (flag) {
                 array[i] = redNumber;
                 arrays[i] = redNumber;
+                i++;
             }
         }
         array[6] = r.nextInt(16) + 1;
         return array;
     }
 
-    public static boolean flags(int arrays[], int redNumber) {
+    public static boolean isNumberUnique(int arrays[], int redNumber) {
         for (int i = 0; i < arrays.length; i++) {
             if (arrays[i] == redNumber) {
                 return false;
