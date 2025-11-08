@@ -3,8 +3,9 @@ package D8;
 public class GrialFriendsTest {
     public static void main(String[] args) {
         GrialFriends myGF = new GrialFriends();
-        myGF.age = 18;
-        myGF.gender = "grial";
+        myGF.getName("LEE");
+        myGF.getGender("female");
+        myGF.age();
         myGF.sleep();
         myGF.meal();
     }
