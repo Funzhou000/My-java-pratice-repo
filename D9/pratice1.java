@@ -1,0 +1,20 @@
+package D9;
+
+public class pratice1 {
+    public static void main(String[] args) {
+        GameTest g = new GameTest("zhangsan", 100);
+        GameTest g2 = new GameTest("lisi", 100);
+        while (true) {
+            g.attack(g2);
+            if (g2.getBoold() == 0) {
+                System.out.println(g2.getName() + "is loser");
+                break;
+            }
+            g2.attack(g);
+            if (g.getBoold() == 0) {
+                System.out.println(g.getName() + "is loser");
+                break;
+            }
+        }
+    }
+}
