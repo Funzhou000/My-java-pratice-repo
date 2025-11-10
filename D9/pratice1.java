@@ -2,8 +2,9 @@ package D9;
 
 public class pratice1 {
     public static void main(String[] args) {
-        GameTest g = new GameTest("zhangsan", 100);
-        GameTest g2 = new GameTest("lisi", 100);
+        GameTest g = new GameTest("zhangsan", 100, '男');
+        GameTest g2 = new GameTest("lisi", 100, '男');
+
         while (true) {
             g.attack(g2);
             if (g2.getBoold() == 0) {
