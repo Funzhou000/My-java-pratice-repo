@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pratice1",
+            "request": "launch",
+            "mainClass": "D9.pratice1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "GoodsPratice2test",
+            "request": "launch",
+            "mainClass": "D9.GoodsPratice2test",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "StudentsTest3",
             "request": "launch",
             "mainClass": "D9.StudentsTest3",

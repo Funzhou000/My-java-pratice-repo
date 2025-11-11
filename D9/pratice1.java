@@ -8,12 +8,14 @@ public class pratice1 {
         while (true) {
             g.attack(g2);
             if (g2.getBoold() == 0) {
-                System.out.println(g2.getName() + "is loser");
+                System.out.println(g2.getName() + " is loser");
+                g.showRoleInfo();
                 break;
             }
             g2.attack(g);
             if (g.getBoold() == 0) {
-                System.out.println(g.getName() + "is loser");
+                System.out.println(g.getName() + " is loser");
+                g2.showRoleInfo();
                 break;
             }
         }
