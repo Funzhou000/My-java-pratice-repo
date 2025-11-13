@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudentManagmentSystem",
+            "request": "launch",
+            "mainClass": "Project1.StudentManagmentSystem",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "phoneTest",
+            "request": "launch",
+            "mainClass": "D11.phoneTest",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListDemo4",
+            "request": "launch",
+            "mainClass": "D11.ArrayListDemo4",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "StudentDemo2",
+            "request": "launch",
+            "mainClass": "D11.StudentDemo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList_StrudentClass",
+            "request": "launch",
+            "mainClass": "D11.ArrayList_StrudentClass",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ArratListDemo3",
+            "request": "launch",
+            "mainClass": "D11.ArratListDemo3",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListDemo2",
+            "request": "launch",
+            "mainClass": "D11.ArrayListDemo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListDemo",
+            "request": "launch",
+            "mainClass": "D11.ArrayListDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ClassrommPrat",
+            "request": "launch",
+            "mainClass": "D11.ClassrommPrat",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "logicaloperate",
+            "request": "launch",
+            "mainClass": "logicaloperate",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "hellojava",
+            "request": "launch",
+            "mainClass": "hellojava",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "pratice1",
             "request": "launch",
             "mainClass": "D9.pratice1",
