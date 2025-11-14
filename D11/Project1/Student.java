@@ -1,4 +1,4 @@
-package Project1;
+package D11.Project1;
 
 public class Student {
     String id;

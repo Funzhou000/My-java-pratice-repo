@@ -1,4 +1,4 @@
-package Project1;
+package D11.Project1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -20,7 +20,6 @@ public class StudentManagmentSystem {
                 case "3" -> modifyStudent(list, sc);
                 case "4" -> searchStudent(list, sc);
                 case "5" -> {
-                    sc.close();
                     break outerloop;
                 }
                 case "6" -> test(list);
@@ -83,6 +82,7 @@ public class StudentManagmentSystem {
         // 先判断ID是否存在
         if (exist(deleteId, list) >= 0) {// true则为存在开始删除
             list.removeIf(Student -> Student.getId().equals(deleteId));
+            // 如果list里面的Student对象的ID和deleteId一致则删除
             System.out.println("delete successfully");
         } else {
             System.out.println("wrong input");
@@ -91,7 +91,7 @@ public class StudentManagmentSystem {
     }
 
     public static void addStudent(ArrayList<Student> list, Scanner sc) {
-        System.out.println("pleas input new Student ID");
+        System.out.println("please input new Student ID");
 
         // 接受ID并查找
         String newStudentId = sc.next();
