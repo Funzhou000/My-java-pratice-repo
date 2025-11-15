@@ -1,5 +1,6 @@
 package Adv_OOP.Demo2;
 
+//工具类练习
 public class ArrayUtil {
     // 私有化构造为了不让外界创建他的对象
     private ArrayUtil() {
