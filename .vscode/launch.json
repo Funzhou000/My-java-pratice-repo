@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sSort",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.selectSort.sSort",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Adv_OOP.Demo08.test",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "Adv_OOP.Demo07.test",
