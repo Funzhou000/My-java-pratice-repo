@@ -8,6 +8,20 @@
             "type": "java",
             "name": "test",
             "request": "launch",
+            "mainClass": "Adv_OOP.Demo11.test",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo11",
+            "request": "launch",
+            "mainClass": "D10.StringDemo11",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
             "mainClass": "Adv_OOP.Demo10.test",
             "projectName": "My-java-pratice-repo_9b14668a"
         },
