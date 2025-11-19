@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AnonymousInnrtClass",
+            "request": "launch",
+            "mainClass": "Adv_OOP.Demo14.AnonymousInnrtClass",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "Adv_OOP.Demo11.test",
