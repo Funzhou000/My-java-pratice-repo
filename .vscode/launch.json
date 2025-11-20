@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "project.PuzzleGame.app",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "basicfiguretype.basic",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "AnonymousInnrtClass",
             "request": "launch",
             "mainClass": "Adv_OOP.Demo14.AnonymousInnrtClass",
