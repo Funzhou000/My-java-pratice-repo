@@ -1,6 +1,9 @@
 package project.PuzzleGame.UI;
 
 import java.awt.AWTException;
+import java.awt.MouseInfo;
+import java.awt.Point;
+import java.awt.PointerInfo;
 import java.awt.Robot;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -312,9 +315,9 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
                 Robot robot = new Robot();
                 while (isRunning) {
                     // Get current mouse position and move back to it (simulates activity without affecting user)
-                    java.awt.PointerInfo pointerInfo = java.awt.MouseInfo.getPointerInfo();
+                    PointerInfo pointerInfo = MouseInfo.getPointerInfo();
                     if (pointerInfo != null) {
-                        java.awt.Point currentPos = pointerInfo.getLocation();
+                        Point currentPos = pointerInfo.getLocation();
                         robot.mouseMove(currentPos.x, currentPos.y);
                     }
                     // Wait for 60 seconds before next simulation
@@ -322,6 +325,7 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
                 }
             } catch (AWTException e) {
                 System.err.println("Could not create Robot for keep-awake functionality: " + e.getMessage());
+                return; // Exit thread if Robot cannot be created
             } catch (InterruptedException e) {
                 // Thread interrupted, exit gracefully
                 Thread.currentThread().interrupt();
@@ -335,7 +339,10 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
     /**
      * Stops the keep-awake thread when the game window is closed.
      */
-    private void stopKeepAwakeThread() {
+    private synchronized void stopKeepAwakeThread() {
+        if (!isRunning) {
+            return; // Already stopped
+        }
         isRunning = false;
         if (keepAwakeThread != null) {
             keepAwakeThread.interrupt();
