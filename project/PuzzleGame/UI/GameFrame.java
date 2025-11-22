@@ -324,7 +324,7 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
                     Thread.sleep(60000);
                 }
             } catch (AWTException e) {
-                System.err.println("Could not create Robot for keep-awake functionality: " + e.getMessage());
+                System.err.println("Failed to initialize keep-awake functionality - screen may turn off during gameplay: " + e.getMessage());
                 return; // Exit thread if Robot cannot be created
             } catch (InterruptedException e) {
                 // Thread interrupted, exit gracefully
