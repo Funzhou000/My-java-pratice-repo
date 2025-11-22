@@ -312,8 +312,11 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
                 Robot robot = new Robot();
                 while (isRunning) {
                     // Get current mouse position and move back to it (simulates activity without affecting user)
-                    java.awt.Point currentPos = java.awt.MouseInfo.getPointerInfo().getLocation();
-                    robot.mouseMove(currentPos.x, currentPos.y);
+                    java.awt.PointerInfo pointerInfo = java.awt.MouseInfo.getPointerInfo();
+                    if (pointerInfo != null) {
+                        java.awt.Point currentPos = pointerInfo.getLocation();
+                        robot.mouseMove(currentPos.x, currentPos.y);
+                    }
                     // Wait for 60 seconds before next simulation
                     Thread.sleep(60000);
                 }
