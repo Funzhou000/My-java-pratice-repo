@@ -325,6 +325,7 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
             } catch (InterruptedException e) {
                 // Thread interrupted, exit gracefully
                 Thread.currentThread().interrupt();
+                return;
             }
         });
         keepAwakeThread.setDaemon(true); // Make it a daemon thread
