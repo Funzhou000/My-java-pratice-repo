@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 // 1. 类继承 JFrame，说明这个类本身就是一个窗口
 public class test2 extends JFrame implements ActionListener {
+    JButton jb = new JButton("push there");
 
     // 2. 把界面初始化的代码搬到构造方法里
     public test2() {
@@ -18,11 +19,9 @@ public class test2 extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(3);
         this.setLayout(null);
 
-        JButton jb = new JButton("push there");
         jb.setBounds(0, 0, 100, 50); // 稍微改大点不然看不见字
 
         // 3. 这里的 this 就不报错了，因为构造方法运行时，对象已经存在了
-        jb.addActionListener(this);
 
         // 把按钮加到自己身上
         this.add(jb);

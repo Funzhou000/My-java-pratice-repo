@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "key_mouseListener",
+            "request": "launch",
+            "mainClass": "project.PuzzleGame.test.key_mouseListener",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "test2",
             "request": "launch",
             "mainClass": "project.PuzzleGame.test.test2",
