@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "shuixianhuaFigure",
+            "request": "launch",
+            "mainClass": "APIPratice.shuixianhuaFigure",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "isprime",
+            "request": "launch",
+            "mainClass": "APIPratice.isprime",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "key_mouseListener",
             "request": "launch",
             "mainClass": "project.PuzzleGame.test.key_mouseListener",

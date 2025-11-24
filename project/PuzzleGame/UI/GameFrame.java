@@ -80,6 +80,7 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
             JLabel winLabel = new JLabel(new ImageIcon(winPath + "/win.png"));
             winLabel.setBounds(203, 303, 197, 73);// 这里的坐标是图片的左上角坐标
             this.getContentPane().add(winLabel);
+
         }
 
         JLabel stepMenu = new JLabel("Steps: " + step);
@@ -231,7 +232,27 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
             // 作弊
             // 必须把 answerArr 的数据正确复制给 arr2dmension
             // answerArr 是 [行][列], arr2dmension 是 [列][行]
-            arr2dmension = answerArr;
+            // arr2dmension = answerArr; // 错误：这是引用赋值，会导致 answerArr 随 arr2dmension 改变
+
+            // 正确：复制数据
+            /*
+             * int[][] answerArr = {
+             * {1, 2, 3},
+             * {4, 5},
+             * {6, 7, 8, 9}
+             * };
+             * 
+             * System.out.println(answerArr.length); // 输出 3，表示有 3 行
+             * System.out.println(answerArr[0].length); // 输出 3，表示第 1 行有 3 列
+             * System.out.println(answerArr[1].length); // 输出 2，表示第 2 行有 2 列
+             * System.out.println(answerArr[2].length); // 输出 4，表示第 3 行有 4 列
+             */
+            for (int i = 0; i < answerArr.length; i++) {
+                for (int j = 0; j < answerArr[i].length; j++) {
+                    arr2dmension[i][j] = answerArr[i][j];
+                }
+            }
+
             // 更新空白块的位置到右下角 (3, 3)
             // 注意：您的代码中 row 变量实际存的是列号(x), col 变量存的是行号(y)
             row = 3;
@@ -263,6 +284,7 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
                 }
             }
         }
+
         return true;
     }
 
