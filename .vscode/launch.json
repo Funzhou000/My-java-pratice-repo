@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Object",
+            "request": "launch",
+            "mainClass": "APIPratice.Object",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "shuixianhuaFigure",
             "request": "launch",
             "mainClass": "APIPratice.shuixianhuaFigure",

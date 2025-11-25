@@ -1,7 +1,5 @@
 package APIPratice;
 
-import D5.数组.definArr;
-
 public class isprime {
     public static void main(String[] args) {
         int num = 57;
