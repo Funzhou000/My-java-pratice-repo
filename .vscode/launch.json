@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bigDecimal",
+            "request": "launch",
+            "mainClass": "APIPratice.bigDecimal",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "bigInteger",
+            "request": "launch",
+            "mainClass": "APIPratice.bigInteger",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "Object",
             "request": "launch",
             "mainClass": "APIPratice.Object",
