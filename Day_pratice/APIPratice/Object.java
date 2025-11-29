@@ -12,7 +12,7 @@ public class Object implements Cloneable {
         // 重写 toString
         int[] arr = { 1, 2, 3, 4, 5 };
         testClass t = new testClass(18, "fun", arr);
-        testClass t3 = new testClass(18, "fun", arr);
+        // testClass t3 = new testClass(18, "fun", arr);
         testClass t2 = (testClass) t.clone();
         arr[0] = 0;
         boolean isEqual = Objects.equals(t, t2);

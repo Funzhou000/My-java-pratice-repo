@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "crawler2",
+            "request": "launch",
+            "mainClass": "APIPratice.crawler2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "crawler",
+            "request": "launch",
+            "mainClass": "APIPratice.crawler",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "regex",
+            "request": "launch",
+            "mainClass": "APIPratice.regex",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "bigDecimal",
             "request": "launch",
             "mainClass": "APIPratice.bigDecimal",

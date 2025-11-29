@@ -272,8 +272,6 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener {
     @Override
     public void keyTyped(KeyEvent e) {
 
-        // TODO Auto-generated method stub
-
     }
 
     public boolean victory() {

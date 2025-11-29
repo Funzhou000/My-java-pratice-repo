@@ -6,7 +6,7 @@ public class AnonymousInnrtClass {
 
         // @Override
         // public void swim() {
-        // // TODO Auto-generated method stub
+        //
         // System.out.println("青蛙在游泳");
         // }
 

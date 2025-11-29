@@ -51,7 +51,7 @@ public class test2 extends JFrame implements ActionListener {
     }
 
     private void initJbutton() {
-        // TODO Auto-generated method stub
+
         jb1.setBounds(0, 0, 100, 50); // 稍微改大点不然看不见字
         jb2.setBounds(0, 50, 100, 50);
         jb3.setBounds(0, 100, 100, 50);

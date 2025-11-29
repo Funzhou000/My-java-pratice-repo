@@ -83,7 +83,6 @@ public class testClass implements Cloneable {
         t.data = newData;
         return t;
         // 如果需要深克隆，需要手动克隆每个引用类型的属性
-        // TODO Auto-generated method stub
 
     }
 
