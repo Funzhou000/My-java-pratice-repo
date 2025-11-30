@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "timeDemo2",
+            "request": "launch",
+            "mainClass": "APIPratice.timeDemo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "timeDemo",
+            "request": "launch",
+            "mainClass": "APIPratice.timeDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "regexDemo2",
+            "request": "launch",
+            "mainClass": "APIPratice.regexDemo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "regexDemo",
+            "request": "launch",
+            "mainClass": "APIPratice.regexDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "regexDemo",
+            "request": "launch",
+            "mainClass": "Day_pratice.APIPratice.regexDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "crawler2",
             "request": "launch",
             "mainClass": "APIPratice.crawler2",
