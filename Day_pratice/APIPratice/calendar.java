@@ -7,8 +7,6 @@ public class calendar {
     public static void main(String[] args) {
         java.util.Calendar c = java.util.Calendar.getInstance();
 
-        Date date = new Date(0L);
-
         Date date2 = c.getTime();
         System.out.println(date2);
         System.out.println("----------------");
