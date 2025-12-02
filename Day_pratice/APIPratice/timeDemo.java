@@ -1,6 +1,5 @@
 package APIPratice;
 
-import java.sql.Date;
 import java.util.Random;
 
 public class timeDemo {

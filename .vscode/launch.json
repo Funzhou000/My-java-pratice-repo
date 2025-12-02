@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calendar",
+            "request": "launch",
+            "mainClass": "APIPratice.calendar",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "timeDemo2",
             "request": "launch",
             "mainClass": "APIPratice.timeDemo2",
