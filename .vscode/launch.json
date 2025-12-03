@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test4",
+            "request": "launch",
+            "mainClass": "APIPratice.test4",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "test3",
+            "request": "launch",
+            "mainClass": "APIPratice.test3",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "test2",
+            "request": "launch",
+            "mainClass": "APIPratice.test2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "APIPratice.test",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Jdk8timePratice",
+            "request": "launch",
+            "mainClass": "APIPratice.Jdk8timePratice",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "calendar",
             "request": "launch",
             "mainClass": "APIPratice.calendar",
