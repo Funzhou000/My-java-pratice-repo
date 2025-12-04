@@ -1,4 +1,4 @@
-package DataConstruture_algorithm.selectSort;
+package DataConstruture_algorithm.sort.selectSort;
 
 import java.util.ArrayList;
 import java.util.List;

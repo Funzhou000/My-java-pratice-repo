@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "quickSort",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.sort.quickSort",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "recursionTest",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.sort.recursionTest",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "insertSort",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.sort.insertSort",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "selectSort",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.sort.selectSort",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.sort.bubbleSort",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "blockSearch",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.searchAlgorithm.blockSearch",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "test4",
             "request": "launch",
             "mainClass": "APIPratice.test4",
