@@ -1,4 +1,4 @@
-package DataConstruture_algorithm;
+package DataConstruture_algorithm.Leetcode.Leetcode_Pratice;
 
 // import java.util.ArrayList;
 

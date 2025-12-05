@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exploration3",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Leetcode.exploration3",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "exploration2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Leetcode.exploration2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "exploration1",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Leetcode.exploration1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "quickSort",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.sort.quickSort",
