@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClimbingStairs",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.ClimbingStairs",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "MonkyPeaches",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.MonkyPeaches",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ImmortalRabbit",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.ImmortalRabbit",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "LambdaGrilFriend",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.LambdaGrilFriend",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "LambdaExpression",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.LambdaExpression",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ArraysPratice",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.ArraysPratice",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "exploration3",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Leetcode.exploration3",
