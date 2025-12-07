@@ -1,5 +1,7 @@
 package Adv_OOP.Demo3;
 
+import java.util.Objects;
+
 public class Student {
     String name;
     int age;
@@ -36,6 +38,26 @@ public class Student {
 
     public void setGender(char gender) {
         this.gender = gender;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == this)
+            return true;
+        if (!(o instanceof Student)) {
+            return false;
+        }
+        Student student = (Student) o;
+        return Objects.equals(name, student.name) && age == student.age && gender == student.gender;
+    }
+
+    @Override
+    public String toString() {
+        return "{" +
+                " name='" + getName() + "'" +
+                ", age='" + getAge() + "'" +
+                ", gender='" + getGender() + "'" +
+                "}";
     }
 
 }

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Iterator",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Algorithm_CourseWork.Iterator",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "CollectionPratice",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Algorithm_CourseWork.CollectionPratice",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "exploration4",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Leetcode.Exploration_Question.exploration4",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "ClimbingStairs",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.ClimbingStairs",
