@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "genericPratice",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Algorithm_CourseWork.genericPratice",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ListPratice",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Algorithm_CourseWork.ListPratice",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "exploration07",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Leetcode.Exploration_Question.exploration07",
