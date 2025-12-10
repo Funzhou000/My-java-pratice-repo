@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Algorithm_CourseWork.Demo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "genericPratice",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Algorithm_CourseWork.genericPratice",
