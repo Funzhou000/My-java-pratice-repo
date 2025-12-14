@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TreeSetStudentGradeCompare",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.TreeSetStudentGradeCompare",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "TreeSetCompare2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.TreeSetCompare2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "TreeSetDemo2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.TreeSetDemo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "TreeSet",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.TreeSet",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "LinkedSetDemo",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.LinkedSetDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "HashSetDemo",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.HashSetDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "SetDemo",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.SetDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "Demo",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Algorithm_CourseWork.Demo",
