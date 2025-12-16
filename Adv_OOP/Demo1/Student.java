@@ -115,6 +115,46 @@ public class Student implements Comparable<Student> {
         return i;
     }
 
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + Grammer;
+        result = prime * result + Math;
+        result = prime * result + English;
+        result = prime * result + age;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        result = prime * result + studentId;
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Student other = (Student) obj;
+        if (Grammer != other.Grammer)
+            return false;
+        if (Math != other.Math)
+            return false;
+        if (English != other.English)
+            return false;
+        if (age != other.age)
+            return false;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        if (studentId != other.studentId)
+            return false;
+        return true;
+    }
+
     public int getStudentId() {
         return studentId;
     }

@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TreeMapDemo3",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.TreeMapDemo3",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "TreeMapDemo2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.TreeMapDemo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "TreeMapDemo1",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.TreeMapDemo1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "HashMapDemo2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.HashMapDemo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "HashMapDemo",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.HashMapDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "MapDemp",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.MapDemp",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "TreeSetStudentGradeCompare",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Set.TreeSetStudentGradeCompare",
