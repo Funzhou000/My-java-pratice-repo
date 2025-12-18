@@ -1,7 +1,5 @@
 package Adv_OOP.Demo1;
 
-import java.util.Objects;
-
 public class Student implements Comparable<Student> {
     int Grammer;
     int Math;

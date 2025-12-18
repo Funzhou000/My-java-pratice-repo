@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Provercine_city",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.SetPratice.Provercine_city",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "RollCallSystem1",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.SetPratice.RollCallSystem1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "RollCallSystem",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.SetPratice.RollCallSystem",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.SetPratice.Test2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Test1",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.SetPratice.Test1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "CollectionsDemo",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.CollectionsDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "VariableArgument",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Set.VariableArgument",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "TreeMapDemo3",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Set.TreeMapDemo3",

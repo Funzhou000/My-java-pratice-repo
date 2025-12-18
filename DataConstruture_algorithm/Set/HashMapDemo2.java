@@ -1,6 +1,5 @@
 package DataConstruture_algorithm.Set;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -28,7 +27,7 @@ public class HashMapDemo2 {
 
         }
         StringBuilder ans = new StringBuilder();
-        int i = 0;
+
         for (char c : hashMap.keySet()) {
             if (hashMap.get(c) == maximum) {
                 ans.append(c);
