@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "project.farmerandlord.src.Test",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "launch",
+            "request": "launch",
+            "mainClass": "project.PokerGame.launch",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "Provercine_city",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Set.SetPratice.Provercine_city",
