@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Demo7",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Stream.Demo7",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Demo6",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Stream.Demo6",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Demo5",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Stream.Demo5",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Demo4",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Stream.Demo4",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Demo3",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Stream.Demo3",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Demo2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Stream.Demo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "Test",
             "request": "launch",
             "mainClass": "project.farmerandlord.src.Test",
