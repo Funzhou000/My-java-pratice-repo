@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Demo3",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.MethodReference.Demo3",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Demo2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.MethodReference.Demo2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Demo1",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.MethodReference.Demo1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "Demo7",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Stream.Demo7",
