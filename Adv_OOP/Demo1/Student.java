@@ -8,7 +8,15 @@ public class Student implements Comparable<Student> {
     String name;
     int studentId;
 
-    public Student() {
+    public Student(String str) {
+        String[] parts = str.split("-");
+        this.name = parts[0];
+        this.age = Integer.parseInt(parts[1]);
+    }
+
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     public Student(int Grammer, int Math, int English, int age, String name) {
