@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "qSort2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.sort.selectSort.qSort2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Demo1",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Algorithm_CourseWork.filePratice.Demo1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Exception.ExceptionPratice1.Test",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Pratice2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.MethodReference.Pratice2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Pratice1",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.MethodReference.Pratice1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "Demo5",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.MethodReference.Demo5",

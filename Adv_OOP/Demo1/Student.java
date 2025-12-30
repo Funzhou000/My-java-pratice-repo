@@ -9,7 +9,7 @@ public class Student implements Comparable<Student> {
     int studentId;
 
     public Student(String str) {
-        String[] parts = str.split("-");
+        String[] parts = str.split(",");
         this.name = parts[0];
         this.age = Integer.parseInt(parts[1]);
     }
