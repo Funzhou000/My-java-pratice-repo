@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InPutStreamCopy",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.InPutStreamCopy",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "InPutStreamDemo",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.InPutStreamDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "outPutMultipleFile",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.outPutMultipleFile",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "outPutDmo1",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.IO.outPutDmo1",
