@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CharStreamDemo1",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.CharStreamDemo1",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "FileReaderDemo",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.FileReaderDemo",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "InPutStreamCopy",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.IO.InPutStreamCopy",
