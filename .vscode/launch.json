@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PraticeEnsecret",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.PraticeEnsecret",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Pratice2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.Pratice2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "CharStreamDemo1",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.IO.CharStreamDemo1",
