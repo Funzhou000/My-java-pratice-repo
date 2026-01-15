@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "readWriteWith4Tyoe",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.Exception.ExceptionPratice1.readWriteWith4Tyoe",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "bufferedInputStream",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.bufferedInputStream",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "sortFileWithStream",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.IO.sortFileWithStream",
