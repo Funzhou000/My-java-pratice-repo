@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "randonNote",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.randonNote",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "clawler2",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.clawler2",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "webCrawler",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.webCrawler",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "hutoolUtil",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.hutoolUtil",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "CommonsioPratice",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.CommonsioPratice",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "compress2Stream",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.compress2Stream",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "compress",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.compress",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "ZipStream",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.ZipStream",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "bytesPrintStream",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.bytesPrintStream",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "objectIOStream",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.objectIOStream",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "transferIOStream",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.transferIOStream",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "sortPoem",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.sortPoem",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "readWriteWith4Tyoe",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.Exception.ExceptionPratice1.readWriteWith4Tyoe",
