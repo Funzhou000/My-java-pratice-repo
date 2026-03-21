@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Properties",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.Properties",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.Login",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
+            "name": "dinamicDistributionSelect",
+            "request": "launch",
+            "mainClass": "DataConstruture_algorithm.IO.dinamicDistributionSelect",
+            "projectName": "My-java-pratice-repo_9b14668a"
+        },
+        {
+            "type": "java",
             "name": "randonNote",
             "request": "launch",
             "mainClass": "DataConstruture_algorithm.IO.randonNote",
