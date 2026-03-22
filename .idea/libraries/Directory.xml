@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Directory">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DataConstruture_algorithm/IO/Directory/a.zip!/" />
+      <root url="jar://$PROJECT_DIR$/DataConstruture_algorithm/IO/Directory/chushibiao.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
