@@ -8,7 +8,7 @@ public class Pratice4 extends Thread {
     public void run() {
         while (true) {
             synchronized (lock) {
-                if (count ==100) {
+                if (count ==1000) {
                     break;
                 }
 
