@@ -18,8 +18,12 @@ public class Client {
                 if(!Register(socket)){
                     System.out.println("注册失败，用户名已存在，请重新输入");
                     continue;
-                }
-                break;//注册成功跳出循环
+                }else{
+                    System.out.println("注册成功，请输入登录信息");
+                    continue;
+
+                }//注册成功继续循环，输入登录信息
+                //注册成功跳出循环
             }else{
                 System.out.println("输入错误重新输入");
             }
